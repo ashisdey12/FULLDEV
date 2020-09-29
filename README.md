@@ -6,6 +6,7 @@ This is an open-source repository that collects different projects.
 Make some awesome projects, put them in your directory and create a pull request.
 ________________________________________
 Steps to contribute
+
 	👉 Fork this repository
 	👉 Clone the repository
 	👉 Create a branch
@@ -13,6 +14,7 @@ Steps to contribute
 	👉 Add & commit
 	👉 Push changes to GitHub
 	👉 Compare & Submit a Pull Request
+	
 We're happy to merge awesome portfolio to this repository!
 ________________________________________
-👨🏻‍💻 Coding is FUN! 👩🏻‍💻
+	 Coding is FUN!
