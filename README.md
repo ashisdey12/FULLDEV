@@ -2,7 +2,7 @@
 	FULLDEV is an organisation that helps everyone to contribute on open source projects.
 ________________________________________
 This is an open-source repository that collects different projects.
-##You can create any project using Front or Backened
+##You can create any project using Front or Backend
 Make some awesome projects, put them in your directory and create a pull request.
 ________________________________________
 Steps to contribute
