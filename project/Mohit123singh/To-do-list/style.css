@@ -1,0 +1,45 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+.container
+{
+  width:30%;
+  border:5px solid black;
+  margin:50px auto 0px;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  background-color:rgb(34, 141, 58);
+  padding-bottom: 15px;
+}
+span{
+  text-transform: capitalize;
+  /* word-spacing: 3px; */
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.box
+{
+  border:1px solid transparent;
+  padding:10px;
+  display: flex;
+}
+.first
+{
+  background-color: rgb(94, 158, 192);
+  color:white;
+}
+.second
+{
+  background-color:rgb(148, 232, 107);
+  color:black;
+}
+input[type="checkbox"]
+{
+  margin-left: auto;
+}
+
+
