@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Image App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <header class="header">
+      <h1>Dog App</h1>
+    </header>
+    <div class="center-align">
+      <form class="col s12" id="form-control">
+        <div class="input-field col s12">
+          <input
+            placeholder="Enter Dog Breed Here 🐶"
+            id="dog_breed"
+            type="text"
+            class="validate center-align"
+          />
+          <button
+            class="btn waves-effect waves-light center"
+            type="submit"
+            name="action"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <img
+      src="https://media.giphy.com/media/DvyLQztQwmyAM/giphy.gif"
+      class="loading"
+      id="loading"
+    />
+    <div id="output" class="row img-container"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
