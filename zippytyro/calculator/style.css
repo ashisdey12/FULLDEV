@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #ec1414, #ab34ec);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 0;
+    cursor: pointer;
+    background-color: #ffffff61;
+    border: none;
+    outline: none;
+}
+
+#back {
+    font-size: 17px;
+}
+
+.textview {
+    width: 208px;
+    height: 40px;
+    margin: 1px;
+    font-size: 25px;
+    padding: 1px;
+}
+
+.main {
+    position: fixed;
+    outline: none;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+.head {
+    z-index: 1;
+    position: fixed;
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    background-color: white;
+    width: 100%;
+}
+
+sup {
+    color: black;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    align-content: center;
+    position: absolute;
+    top: 520px;
+    color: white;
+    text-align: center;
+}
+
+#text-area {
+    border: 1px solid black;
+    border-radius: 15px;
+    align-content: center;
+}
+
+
+/* button design */
+.btn-design {
+    background-color: rgba(211, 211, 211, 0.3);
+    border: 1px solid wheat;
+    border-radius: 15px;
+}
+
+.btn-design:hover {
+    background-color: rgb(245, 245, 245, 0.6);
+}
+
+@media(max-width:460px) {
+    body {
+        background: linear-gradient(to right, #ec1414, #ab34ec);
+        width: 500px;
+    }
+}
