@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="keys">
+    <div class="box">
+      <div data-key="49" class="key">
+        <kbd>1</kbd>
+        <span class="sound">WORK IT</span>
+      </div>
+      <div data-key="81" class="key">
+        <kbd>Q</kbd>
+        <span class="sound">HARDER</span>
+      </div>
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">MORE THAN</span>
+      </div>
+      <div data-key="90" class="key">
+        <kbd>Z</kbd>
+        <span class="sound">EVER</span>
+      </div>
+    </div>
+    <div class="box">
+      <div data-key="50" class="key">
+        <kbd>2</kbd>
+        <span class="sound">MAKE IT</span>
+      </div>
+      <div data-key="87" class="key">
+        <kbd>W</kbd>
+        <span class="sound">BETTER</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">HOUR</span>
+      </div>
+      <div data-key="88" class="key">
+        <kbd>X</kbd>
+        <span class="sound">AFTER</span>
+      </div>
+    </div>
+    <div class="box">
+      <div data-key="51" class="key">
+        <kbd>3</kbd>
+        <span class="sound">DO IT</span>
+      </div>
+      <div data-key="69" class="key">
+        <kbd>E</kbd>
+        <span class="sound">FASTER</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">OUR</span>
+      </div>
+      <div data-key="67" class="key">
+        <kbd>C</kbd>
+        <span class="sound">WORK IS</span>
+      </div>
+    </div>
+    <div class="box">
+      <div data-key="52" class="key">
+        <kbd>4</kbd>
+        <span class="sound">MAKES US</span>
+      </div>
+      <div data-key="82" class="key">
+        <kbd>R</kbd>
+        <span class="sound">STRONGER</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">NEVER</span>
+      </div>
+      <div data-key="86" class="key">
+        <kbd>V</kbd>
+        <span class="sound">OVER</span>
+      </div>
+    </div>
+  </div>
+  <div class="audio">
+    <audio data-key="49" src="./sounds/work_it.wav"></audio>
+    <audio data-key="81" src="./sounds/harder.wav"></audio>
+    <audio data-key="65" src="./sounds/more_than.wav"></audio>
+    <audio data-key="90" src="./sounds/ever.wav"></audio>
+    <audio data-key="50" src="./sounds/make_it.wav"></audio>
+    <audio data-key="87" src="./sounds/better.wav"></audio>
+    <audio data-key="83" src="./sounds/hour.wav"></audio>
+    <audio data-key="88" src="./sounds/after.wav"></audio>
+    <audio data-key="51" src="./sounds/do_it.wav"></audio>
+    <audio data-key="69" src="./sounds/faster.wav"></audio>
+    <audio data-key="68" src="./sounds/our.wav"></audio>
+    <audio data-key="67" src="./sounds/work_is.wav"></audio>
+    <audio data-key="52" src="./sounds/makes_us.wav"></audio>
+    <audio data-key="82" src="./sounds/stronger.wav"></audio>
+    <audio data-key="70" src="./sounds/never.wav"></audio>
+    <audio data-key="86" src="./sounds/over.wav"></audio>
+  </div>
+  <footer class="footer">
+    <div class="footer-center">
+      <p class="footer-head">
+        <h1>Daft Punk JS Drum Kit </h1>
+      </p>
+      <p>Created by Barış TÜRE &copy; 2020</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
