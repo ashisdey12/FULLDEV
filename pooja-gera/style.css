@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#091921;
+}
+
+.calculate{
+  position: relative;
+  display: grid;
+}
+
+.calculate .enter-digit{
+    grid-column: span 4;
+    height:100px;
+    text-align: right;
+    border:none;
+    outline: none;
+    padding:10px;
+    font-size:18px;
+}
+
+.calculate span{
+    display:grid;
+    width:60px;
+    height:60px;
+    color:#fff;
+    background:#0c2835;
+    place-items:center;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.caclulate span:active{
+    background:#74ff3b;
+    color:#111;
+}
+
+.calculate span.clear{
+    grid-column:span 2;
+    width:120px;
+    background-color:#ff3077;
+}
+
+.calculate span.equal{
+    background:#03b1ff;
+}

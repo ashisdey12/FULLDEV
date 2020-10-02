@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculate using JavaScript</title>
+</head>
+<body>
+
+     <form class="calculate" name="calculate" id="number">
+         <input type="text" placeholder="0" class="enter-digit" name="text" aria-readonly="true">
+         <span class="number clear" onclick="document.getElementById('number').reset()">c</span> <!--Resetting the form input using clear button-->
+         <span class="number" onclick="document.calculate.text.value+='/'">/</span>
+         <span class="number" onclick="document.calculate.text.value+='*'">*</span>
+         <span class="number" onclick="document.calculate.text.value+='7'">7</span>
+         <span class="number" onclick="document.calculate.text.value+='8'">8</span>
+         <span class="number" onclick="document.calculate.text.value+='9'">9</span>
+         <span class="number" onclick="document.calculate.text.value+='-'">-</span>
+         <span class="number" onclick="document.calculate.text.value+='4'">4</span>    
+         <span class="number" onclick="document.calculate.text.value+='5'">5</span>
+         <span class="number" onclick="document.calculate.text.value+='6'">6</span>
+         <span class="number" onclick="document.calculate.text.value+='+'">+</span>
+         <span class="number" onclick="document.calculate.text.value+='3'">3</span>
+         <span class="number" onclick="document.calculate.text.value+='2'">2</span>
+         <span class="number" onclick="document.calculate.text.value+='1'">1</span>
+         <span class="number" onclick="document.calculate.text.value+='0'">0</span>
+         <span class="number" onclick="document.calculate.text.value+='00'">00</span>
+         <span class="number" onclick="document.calculate.text.value+='.'">.</span>
+         <span class="number equal" onclick="document.calculate.text.value+='\n'+'='+eval(calculate.text.value)">=</span> <!--Calculating the expression in the input box-->
+    </form>
+
+<script src="calculator.js"></script>
+</body>
+</html>
